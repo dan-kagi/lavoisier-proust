@@ -65,6 +65,39 @@ const questions = [
             {isCorrect:false, answer:"20,0 g de hidróxido de sódio"},
         ]
     },
+    {
+        id: "7",
+        question: "O gás nitrogênio reage com gás hidrogênio para formar amônia. Observe os dados experimentais abaixo e determine os valores de a, b, c, d e e.",
+        image: "./public/images/fig7.png",
+        options: [
+            {isCorrect:true, answer:"a = 68 g, b = 30 g, c = 140 g, d = 504 g, e = 612 g"},
+            {isCorrect: false, answer:"a = 50 g, b = 250 g, c = 130 g, d = 500 g, e = 300 g"},
+            {isCorrect:false, answer:"a = 68 g, b = 30 g, c = 140 g, d = 500 g, e = 600 g"},
+            {isCorrect:false, answer:"a = 88 g, b = 40 g, c = 140 g, d = 504 g, e = 612 g"},
+        ]
+    },
+    {
+        id: "8",
+        question: "O ácido clorídrico reage com o hidróxido de magnésio com formação de água e cloreto de magnésio. I)	Sabe que na reação de 73 g de ácido clorídrico com 58 g de hidróxido de magnésio são formados 36 g de água. Nesta reação, determine a massa de cloreto de magnésio formada (Lei de Lavoisier). II) Determine qual seria a massa de água, em g, formada na reação de 21,9 g de hidróxido de magnésio (Lei de Proust)",
+        image: "",
+        options: [
+            {isCorrect:true, answer:"I) 95 g de cloreto de magnésio.  II) 13,6 g"},
+            {isCorrect: false, answer:"I) 90 g de cloreto de magnésio.  II) 10,5 g"},
+            {isCorrect:false, answer:"I) 95 g de cloreto de magnésio.  II) 30,6 g"},
+            {isCorrect:false, answer:"I) 98 g de cloreto de magnésio.  II) 14,5 g"},
+        ]
+    },
+    {
+        id: "9",
+        question: "O gás hidrogênio reage com o gás oxigênio para formar água. Determine os dados faltantes.",
+        image: "./public/images/fig9.png",
+        options: [
+            {isCorrect:true, answer:"Exp1. 18 g --- Exp2. 128 g --- Exp3. 25 g --- Exp4. 32 g e 36 g"},
+            {isCorrect: false, answer:"Exp1. 16 g --- Exp2. 125 g --- Exp3. 25 g --- Exp4. 32 g e 36 g"},
+            {isCorrect:false, answer:"Exp1. 18 g --- Exp2. 128 g --- Exp3. 50 g --- Exp4. 34 g e 38 g"},
+            {isCorrect:false, answer:"Exp1. 36 g --- Exp2. 224 g --- Exp3. 25 g --- Exp4. 32 g e 36 g"},
+        ]
+    },
 ]
 
 function shuffle(arr){

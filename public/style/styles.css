@@ -51,11 +51,11 @@ button{
 }
 
 img {
-    width: 380px;
+    width: 400px;
     border-radius: 5px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 880px){
     .card{
         width:90%;
     }

@@ -171,6 +171,30 @@ const questions = [
       },
     ],
   },
+  {
+    id: '11',
+    question:
+      'Em um experimento, 40 g de hidróxido de sódio reagiram com 36,5 g de ácido clorídrico formando cloreto de sódio e 18 g de água. Determine a massa de cloreto de sódio formada nesta reação (Lei de Lavoisier). Aplicando a Lei de Proust, calcule a massa de ácido clorídrico necessária para reagir com 160 g de hidróxido de sódio.',
+    image: '',
+    options: [
+      {
+        isCorrect: true,
+        answer: '146 g de ácido clorídrico',
+      },
+      {
+        isCorrect: false,
+        answer: '292 g de ácido clorídrico',
+      },
+      {
+        isCorrect: false,
+        answer: '36,5 g de ácido clorídrico',
+      },
+      {
+        isCorrect: false,
+        answer: '640 g de ácido clorídrico',
+      },
+    ],
+  },
 ];
 
 function shuffle(arr) {
